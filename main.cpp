@@ -17,5 +17,6 @@ int main(int argc, char* argv[]){
  for (i = 0; i < a; i++) {
  cout << k[i] << " ";
  }
+ delete [] k;
  return 0;
 }
